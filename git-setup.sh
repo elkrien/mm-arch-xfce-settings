@@ -25,11 +25,11 @@ git config --global credential.helper 'cache --timeout=32000'
       
 
 echo "###########################################################"
-echo "Github credentials have been set"
-echo "Delete the ~/.cache/git folder if you made a mistake or"
-echo "if you want to switch to your personal github"
+echo "	Github credentials zostały ustawione"
+echo "	Wykasuj folder ~/.cache/git jeśli się pomyliłeś"
+echo "	lub chcesz się przełączyć na inny github"
 echo "###########################################################"
-
+echo
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "####################    K O N I E C    #########################"
 echo "################################################################"

@@ -14,4 +14,7 @@ Wersja 1.0.2 - 28/01/2021
 - dodano skrypty git (git-setup do ustawiania credentials i git-update do automatycznej aktualizacji git)
 - stworzenie skryptu 003 - instalacja paru
 - stworzenie skryptu 004 - instalacja drukarek
+- stworzenie skryptu 005 - instalacja tlp (zarządzanie baterią laptopa)
+- stworzenie skryptu 006 - instalacja avahi (do zarządzania siecią - drukarka sieciowa, NAS, SMB)
+
 

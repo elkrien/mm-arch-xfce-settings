@@ -10,6 +10,8 @@ Wersja 1.0.1 - 27/01/2021
 - stworzenie skryptu 001 - instalacja środowiska graficznego XFCE z greeterem LightDM
 - stworzenie skryptu 002 - instalacja dźwięku
 
-Wersja 1.0.2 - 27/01/2021
+Wersja 1.0.2 - 28/01/2021
 - dodano skrypty git (git-setup do ustawiania credentials i git-update do automatycznej aktualizacji git)
+- stworzenie skryptu 003 - instalacja paru
+- stworzenie skryptu 004 - instalacja drukarek
 

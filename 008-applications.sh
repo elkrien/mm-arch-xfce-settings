@@ -78,6 +78,7 @@ libreoffice-fresh-pl	# Polski język do Libreoffice
 gufw			# konfiguracja firewall
 discord			# discord
 intel-ucode		# Microcode update dla procesorów Intel
+xclip			# schowek w edytorze micro
 )
 
 list_paru=(
@@ -92,6 +93,7 @@ etcher-bin			# flashowanie iso
 pamac-aur			# instalator pakietów
 nvm				# Node Version Manager
 micro-bin			# edytor w terminalu
+spotify				# serwis spotify
 )
 
 

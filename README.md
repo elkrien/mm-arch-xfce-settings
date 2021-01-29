@@ -34,5 +34,5 @@ INSTRUKCJA INSTALACJI:
 	./006-network-discovery.sh
 	./007-fonts.sh
 	./008-applications.sh
-2. Uruchom ponownie komputer
-5. Przejdź do zabawy z dostosowaniem wyglądu XFCE wg pliku XFCE-wygląd
+2. Uruchom ponownie komputer (sudo reboot)
+3. Przejdź do zabawy z dostosowaniem wyglądu XFCE wg pliku XFCE-wygląd

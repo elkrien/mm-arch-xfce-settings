@@ -69,7 +69,7 @@ tput setaf 5;echo
 echo "Uruchamianie serwisu drukarek"
 echo 
 echo;tput sgr0
-sudo systemctl enable org.cups.cupsd.service
+sudo systemctl enable cups.service
 
 ### Instalacja sterowników drukarki
 
@@ -77,7 +77,7 @@ tput setaf 5;echo
 echo "Instalowanie sterowników drukarki Epson"
 echo 
 echo;tput sgr0
-sudo paru -S --noconfirm --needed epson-inkjet-printer-escpr
+paru -S --noconfirm --needed epson-inkjet-printer-escpr
 
 
 ### Powiadomienie o zakończeniu

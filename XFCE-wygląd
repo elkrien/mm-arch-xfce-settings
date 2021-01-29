@@ -1,0 +1,189 @@
+
+##############################      UWAGA      ##############################
+
+Poniższe motywy i programy zaznaczone jako "zainstalować z AUR" w poniższym poradniku można zainstalować jako całość wpisując w Terminalu poniższe polecenia:
+1. Instalacja pakietów z oficjalnych repozytoriów:
+	sudo pacman -S --needed vala-panel-appmenu-xfce vala-panel-appmenu-common vala-panel-appmenu-registrar albert plank alacritty mugshot ttf-roboto ttf-roboto-mono 					fish ttf-fira-code xclip
+2. Instalacja pakietów z AUR:
+	Najpierw instalacja PARU:	
+		sudo pacman -S --needed git base-devel
+		git clone https://aur.archlinux.org/paru.git
+		cd paru
+		makepkg -si
+	I teraz instalacja pakietów:
+		paru -S --needed ant-dracula-gtk-theme kora-icon-theme bibata-cursor-theme micro 
+
+
+##############################      MOTYW, IKONY i KURSORY      ##############################
+
+ant-dracula-gtk-theme - zainstalować z AUR (https://aur.archlinux.org/packages/ant-dracula-gtk-theme/)
+kora-icon-theme - zainstalować z AUR (http://aur.archlinux.org/packages/kora-icon-theme)
+bibata-cursor-theme - zainstalować z AUR (https://aur.archlinux.org/packages/bibata-cursor-theme)
+ttf-roboto - zainstalować z AUR (oficjalne repozytorium)
+ttf-roboto-mono - zainstalować z AUR (oficjalne repozytorium)
+
+
+1. Uruchomić WYGLĄD (w USTAWIENIA)
+2. Zmienić Styl na ANT-DRACULA
+3. Zmienić Ikony na KORA
+4. Zmienić czcionkę na Roboto Regular i Roboto Mono Regular - rozmiar 10
+4. Uruchomić MENEDŻER OKIEN
+5. Zmienić styl na ANT-DRACULA
+6. Zmienić układ przycisków (zamykanie, minimalizacja i maksymalizacja na lewo, potem tytuł, ukryć pozostałe)
+7. Uruchomić USPRAWNIENIA MENEDŻERA OKIEN i w ostatniej zakładce zmniejszyć na ok. 80% 2,3 i 4 suwak
+
+
+
+##############################      PANEL      ##############################
+
+1. vala-panel-appmenu-xfce - zainstalować z AUR
+2. vala-panel-appmenu-common - zainstalować z AUR
+3. vala-panel-appmenu-registrar - zainstalować z AUR
+4. Uruchomić w terminalu: xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true  
+5. Uruchomić w terminalu: xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
+6. Wczytać konfigurację paneli z backupu (a jak się nie uda to poniżej konfiguracja)
+7. Układ panelu (Rozmiar: 28, Rozmiar ikon: 18 lub automatyczny - sprawdzić jak ładniej wygląda):
+	1. Separator (odstęp)
+	2. Menu Whisker: Układ - pokaż jako ikony
+			 Zaznaczone:
+					Uproszczone nazwy programów			 		
+					Pokazuj nazwy kategorii
+			 		Pokaż podpowiedzi programów
+			 		Umieszczenie kategorii poniżej przycisku panelu
+			 		Umieszczenie paska wyszukiwania obok przycisku panelu
+			 Rozmiar ikony programu: Zwykły
+			 Rozmiar ikony kategorii: Mniejszy
+			 Zachowanie - Przełączanie kategorii poprzez wskazanie ich kursorem myszy
+	3. Menu programu (pogrubiona nazwa programu i rozszerz wtyczkę na panelu)
+	4. Wtyczka zasobnika stanu (rozmiar ikon 24)
+	5. Wtyczka Pulse audio
+	6. Czas i data (zegar na górze, data na dole, własny format (dd-mm-yyyy)
+	7. Pogoda (zmienić nazwę na Rzeszów, Ikony na Liquid Dark, styl podpowiedzi Prosty, w etykietach zostawić Temp.)
+	8. Przyciski sesji (jako przyciski i tylko zakończenie sesji)
+		
+
+##############################      OKNO LOGOWANIA      ##############################
+
+1. Uruchomić LIGHTDM GTK+ Greeter: Ustawienia
+2. Motyw: ANT-DRACULA
+3. Ikony: Kora
+4. Zaznaczyć: Użyj tapety użytkownika
+
+
+##############################      ALBERT      ##############################
+
+1. albert - zainstalować z AUR
+2. Włączyć: Clear on hide
+3. Wyłączyć autostart i Show tray icon
+4. W extensions zaznaczyć: Applications i Files
+5. Jako skrót ustawić: LEWY CRTL + SPACJA
+6. Ściągnąć motyw z https://draculatheme.com/albert (bezpośredni link: https://github.com/dracula/albert/archive/master.zip)
+7. Rozpakować skórkę i wgrać plik DraculaPurple.qss do: /usr/share/albert/org.albert.frontend.widgetboxmodel/themes/
+8. Ustawić w Albercie motyw: Dracula Purple (jak nie widać motywu to uruchomić Alberta ponownie)
+6. Dodać Alberta ręcznie do autostartu (Sesja i uruchamianie - w wymaganych polach wszędzie wpisać albert
+
+
+##############################      PLANK      ##############################
+
+1. plank - zainstalować z AUR
+2. Ściągnąć motyw z https://draculatheme.com/plank (bezpośredni link: https://github.com/dracula/plank/archive/master.zip)
+3. Rozpakować skórkę i wgrać katalog Dracula do /usr/share/plank/themes/
+4. Ustawić motyw planku na Dracula
+5. Rozmiar ikon zmienić na większy, np. 48
+6. Zaznaczyć Powiększanie ikon
+7. W Zachowanie sprawdzić czy włączone jest Pokaż nieprzypięte
+8. Przeciągnąć ulubione programy do Plank'a :)
+
+
+##############################      USPRAWNIENIA MENEDŻERA OKIEN      ##############################
+
+1. W kompozycjach wyłączyć Cienie zadokowanych okien (gryzie się z Plank)
+
+
+##############################      TERMINAL      ##############################
+
+1. alacritty - zainstalować z AUR
+2. Ściągnąć motyw z https://draculatheme.com/alacritty (bezpośredni link: https://github.com/dracula/alacritty/archive/master.zip)
+3. Rozpakować i zmienić nazwę pliku dracula.yml na alacritty.yml
+4. Wgrać plik alacritty.yml do ~/.config/alacritty/ (jeżeli nie ma takiego katalogu to go stworzyć)
+5. Ustawić w Preferowane programy alacritty jako terminal
+6. Można ustawić sobie w Klawiatura skrót do uruchamiania terminala jako CTRL + ALT + T - polecenie: exo-open --launch TerminalEmulator
+7. Zainstalować czcionkę ttf-fira-code z AUR
+8. Zainstaluj fish (pacman -S fish)
+9. Zainstaluj Starship z AUR lub za pomocą polecenia: curl -fsSL https://starship.rs/install.sh | bash
+10. Uruchom w terminalu: echo /usr/local/bin/fish | sudo tee -a /etc/shells
+11. Uruchom w terminalu: chsh -s /bin/fish
+12. Jeśli nie istnieje utwórz plik ~/.config/fish/config.fish
+13. W pliku ~/.config/fish/config.fish dodaj następujące linie:
+	# No greeting when starting an interactive shell.
+	function fish_greeting
+	end
+	
+	# Fish autostart 
+	neofetch
+	starship init fish | source
+14. Wyloguj i zaloguj się ponownie
+15. W pliku ~/.config/alacritty/alacritty.yml dodać następujące linie:
+
+	background_opacity: 0.8  # value range is 0 ~ 1
+
+	font:
+  	  normal:
+    	    family: Fira Code
+    	    style: Regular
+
+	  bold:
+	    family: Fira Code
+	    style: Bold
+
+	  italic:
+	    family: Fira Code
+	    style: Italic
+
+	  bold_italic:
+	    family: Fira Code
+	    style: Bold Italic
+
+	  size: 9
+16. Uruchom w terminalu: fish_config
+17. Przejdź na wygenerowaną stronę i ustaw wygląd na Dracula
+18. Wróć do terminala i wciśnij Enter
+
+##############################      MOUSEPAD      ##############################
+
+1. W menu Widok zaznaczone tylko Pasek Narzędziowy
+2. Wykonaj następujące polecenia w terminalu:
+	git clone https://github.com/dracula/mousepad.git && cd mousepad
+	mkdir -p "$HOME/.local/share/gtksourceview-3.0/styles"
+	mv dracula.xml $HOME/.local/share/gtksourceview-3.0/styles
+3. W menu Widok wybierz Dracula w zestawie kolorów
+4. W Edycja / Preferencje zaznaczyć Wyróżnianie bieżącego wiersza i Zawijanie wierszy
+5. Zmień czcionkę w prefernecjach na Fira Code Regular
+
+
+##############################      MICRO      ##############################
+
+1. micro - zainstalować z AUR
+2. Do pliku ~/.config/fish/config.fish dodaj:
+	export MICRO_TRUECOLOR=1
+3. Ściągnąć motyw z https://draculatheme.com/micro (bezpośredni link: https://github.com/dracula/micro/archive/master.zip)
+4. Rozpakować i wgrać plik dracula.micro do ~/.config/micro/colorschemes (utworzyć folder jeśli nie istnieje)
+5. Uruchomić Micro, jeśli wygląd się nie zmienił to wcisnąć CTRL+e i wpisać komendę: set colorscheme dracula (wcisnąć Enter i uruchomić ponownie)
+6. Jeśli przy uruchamianiu pojawia się błąd xclip to zainstaluj: sudo pacman -S xclip
+
+
+##############################      EDYCJA UŻYTKOWNIKA      ##############################
+
+1. Mugshot - zainstalować z AUR
+2. Ustawić zdjęcia użytkownika
+
+
+##############################      GOOGLE CHROME      ##############################
+
+1. W ustawieniach motywu wybierz GTK+
+
+
+
+
+
+

@@ -26,6 +26,19 @@ func_install() {
     	fi
 }
 
+func_install_paru() {
+	if paru -Qi $1 &> /dev/null; then
+		tput setaf 2
+  		echo " 		  Pakiet "$1" jest już zainstalowany				     "
+		tput sgr0
+	else
+    		tput setaf 3
+    		echo
+    		tput sgr0
+    		paru -S --noconfirm --needed $1
+    	fi
+}
+
 ### Nagłówek
 
 tput setaf 3
@@ -60,7 +73,24 @@ neofetch		# informacje o systemie
 gparted			# zarządzanie dyskami
 grub-customizer		# customizer grub
 fish			# shell
+libreoffice-fresh	# pakiet office
+libreoffice-fresh-pl	# Polski język do Libreoffice
+gufw			# konfiguracja firewall
+discord			# discord
+intel-ucode		# Microcode update dla procesorów Intel
+)
 
+list_paru=(
+bitwarden-bin			# password manager
+teams				# Microsoft Teams
+zoom				# Zoom
+skypeforlinux-stable-bin	# Skype
+mugshot				# aktualizowanie profilu
+google-chrome			# przeglądarka www
+timeshift-bin			# timeshift
+etcher-bin			# flashowanie iso
+pamac-aur			# instalator pakietów
+nvm				# Node Version Manager
 )
 
 
@@ -72,6 +102,13 @@ for name in "${list[@]}" ; do
 	count=$[count+1]
 	tput setaf 3;echo "### Instalowanie pakietu nr.  "$count " " $name;tput sgr0;
 	func_install $name
+	echo
+done
+
+for name in "${list_paru[@]}" ; do
+	count=$[count+1]
+	tput setaf 3;echo "### Instalowanie pakietu nr.  "$count " " $name;tput sgr0;
+	func_install_paru $name
 	echo
 done
 

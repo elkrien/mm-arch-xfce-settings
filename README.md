@@ -35,9 +35,4 @@ INSTRUKCJA INSTALACJI:
 	./007-fonts.sh
 	./008-applications.sh
 2. Uruchom ponownie komputer
-3. Zainstaluj pamac-aur
-4. Doinstaluj odpowiednie aplikacje z pamac: 
-	Zoom
-	Google Chrome
-	Microsoft Teams
 5. Przejdź do zabawy z dostosowaniem wyglądu XFCE wg pliku XFCE-wygląd

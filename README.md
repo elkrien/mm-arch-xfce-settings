@@ -17,4 +17,6 @@ Wersja 1.0.2 - 28/01/2021
 - stworzenie skryptu 005 - instalacja tlp (zarządzanie baterią laptopa)
 - stworzenie skryptu 006 - instalacja avahi (do zarządzania siecią - drukarka sieciowa, NAS, SMB)
 
-
+Wersja 1.0.3 - 29/01/2021
+- stworzenie skryptu 007 - instalacja fontów
+- stworzenie skryptu 008 - instalacja aplikacji z oficjalnych repozytoriów archlinux

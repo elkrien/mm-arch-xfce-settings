@@ -48,7 +48,6 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 xfce4
 xfce4-goodies
-archlinux-wallpaper
 )
 
 ############ Wywołanie skryptu

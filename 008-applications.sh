@@ -91,6 +91,7 @@ timeshift-bin			# timeshift
 etcher-bin			# flashowanie iso
 pamac-aur			# instalator pakietów
 nvm				# Node Version Manager
+micro-bin			# edytor w terminalu
 )
 
 

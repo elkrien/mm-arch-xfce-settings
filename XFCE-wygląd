@@ -102,6 +102,8 @@ ttf-roboto-mono - zainstalować z AUR (oficjalne repozytorium)
 
 ##############################      TERMINAL      ##############################
 
+Poniższe wszystkie punkty poza ustawieniem skrótu (CRTL+ALT+T) można wykonać za pomocą skryptu z 009-terminal.sh z https://github.com/elkrien/arch_settings
+
 1. alacritty - zainstalować z AUR
 2. Ściągnąć motyw z https://draculatheme.com/alacritty (bezpośredni link: https://github.com/dracula/alacritty/archive/master.zip)
 3. Rozpakować i zmienić nazwę pliku dracula.yml na alacritty.yml

@@ -21,7 +21,8 @@ Wersja 1.0.3 - 29/01/2021
 - stworzenie skryptu 007 - instalacja fontów
 - stworzenie skryptu 008 - instalacja aplikacji z oficjalnych repozytoriów archlinux
 
-
+Wersja 1.0.4 - 31/01/2021
+- sworzenie skryptu 009 - instalacja terminala, fish + starship i konfiguracja ich wyglądu (kolory)
 
 INSTRUKCJA INSTALACJI:
 
@@ -34,5 +35,6 @@ INSTRUKCJA INSTALACJI:
 	./006-network-discovery.sh
 	./007-fonts.sh
 	./008-applications.sh
+	/.009-terminal.sh
 2. Uruchom ponownie komputer (sudo reboot)
 3. Przejdź do zabawy z dostosowaniem wyglądu XFCE wg pliku XFCE-wygląd

@@ -104,6 +104,10 @@ cp -r ./Config-files/fish_variables ~/.config/fish/
 mkdir -p ~/.config/alacritty
 cp -r ./Config-files/alacritty.yml ~/.config/alacritty
 
+# kopiowanie ustawień starship
+
+cp -r ./Config-files/starship.toml ~/.config/
+
 ### Powiadomienie o zakończeniu
 
 tput setaf 11;

@@ -150,6 +150,11 @@ Poniższe wszystkie punkty poza ustawieniem skrótu (CRTL+ALT+T) można wykonać
 16. Uruchom w terminalu: fish_config
 17. Przejdź na wygenerowaną stronę i ustaw wygląd na Dracula
 18. Wróć do terminala i wciśnij Enter
+19. Jeśli nie istnieje stwórz plik starship.toml w ~/.config
+20. W pliku starship.toml zamieść:
+	[character]
+	success_symbol = "[➜](bold green) "
+	error_symbol = "[✗](bold red) "
 
 ##############################      MOUSEPAD      ##############################
 

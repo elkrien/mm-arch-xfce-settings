@@ -96,6 +96,7 @@ nvm				# Node Version Manager
 micro-bin			# edytor w terminalu
 spotify				# serwis spotify
 xfce4-panel-profiles		# backup i zmienianie profili panelu
+typora				# edytor plików MD
 )
 
 

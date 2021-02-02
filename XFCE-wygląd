@@ -109,7 +109,7 @@ Poniższe wszystkie punkty poza ustawieniem skrótu (CRTL+ALT+T) można wykonać
 3. Rozpakować i zmienić nazwę pliku dracula.yml na alacritty.yml
 4. Wgrać plik alacritty.yml do ~/.config/alacritty/ (jeżeli nie ma takiego katalogu to go stworzyć)
 5. Ustawić w Preferowane programy alacritty jako terminal
-6. Można ustawić sobie w Klawiatura skrót do uruchamiania terminala jako CTRL + ALT + T - polecenie: exo-open --launch TerminalEmulator
+6. Jeśli nie działa skrót to w programie Klawiatura utwórz skrót do uruchamiania jako CTRL+ALT+T - polecenie: exo-open --launch TerminalEmulator
 7. Zainstalować czcionkę ttf-fira-code z AUR
 8. Zainstaluj fish (pacman -S fish)
 9. Zainstaluj Starship z AUR lub za pomocą polecenia: curl -fsSL https://starship.rs/install.sh | bash
@@ -147,9 +147,8 @@ Poniższe wszystkie punkty poza ustawieniem skrótu (CRTL+ALT+T) można wykonać
 	    style: Bold Italic
 
 	  size: 9
-16. Uruchom w terminalu: fish_config
-17. Przejdź na wygenerowaną stronę i ustaw wygląd na Dracula
-18. Wróć do terminala i wciśnij Enter
+16. Ściągnij motyw do fish z https://draculatheme.com/fish (bezpośredni link: https://github.com/dracula/fish/archive/master.zip)
+17. Rozpakuj i skopiuj folder conf.d do ~/.config/fish
 19. Jeśli nie istnieje stwórz plik starship.toml w ~/.config
 20. W pliku starship.toml zamieść:
 	[character]
@@ -190,6 +189,11 @@ Poniższe wszystkie punkty poza ustawieniem skrótu (CRTL+ALT+T) można wykonać
 1. W ustawieniach motywu wybierz GTK+
 
 
+##############################      TYPORA      ##############################
+
+1. Ściągnij temat z https://draculatheme.com/typora (bezpośredni link: https://github.com/dracula/typora/archive/master.zip)
+2. Rozpakuj i skopiuj katalog dracula i plik dracula.css do ~/.config/Typora/themes/
+3. Uruchom typora i w menu Motywy wybierz Dracula
 
 
 

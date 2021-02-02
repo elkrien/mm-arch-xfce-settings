@@ -97,7 +97,8 @@ chsh -s /bin/fish
 
 mkdir -p ~/.config/fish
 cp -r ./Config-files/config.fish ~/.config/fish/
-cp -r ./Config-files/fish_variables ~/.config/fish/
+mkdir -p ~/.config/fish/conf.d
+cp -r ./Config-files/dracula.fish ~/.config/fish/conf.d/
 
 # kopiowanie ustawień alacritty
 

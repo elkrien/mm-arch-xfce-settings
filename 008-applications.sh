@@ -79,6 +79,7 @@ gufw			# konfiguracja firewall
 discord			# discord
 intel-ucode		# Microcode update dla procesorów Intel
 xclip			# schowek w edytorze micro
+meld			# porównywarka plików
 )
 
 list_paru=(

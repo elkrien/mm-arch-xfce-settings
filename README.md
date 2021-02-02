@@ -1,4 +1,4 @@
-# arch_settings
+# LINUX ARCH XFCE na LENOVO IDEAPAD 100S-14IBR
 
 Repozytorium zawiera skrypty oraz ustawienia Linux Arch w moim własnym wydaniu :)
 
@@ -29,6 +29,12 @@ Wersja 1.0.3 - 29/01/2021
 Wersja 1.0.4 - 31/01/2021
 
 - sworzenie skryptu 009 - instalacja terminala, fish + starship i konfiguracja ich wyglądu (kolory)
+
+Wersja 1.0.5 - 02/02/2021
+
+- aktualizacja skryptu 009 - konfiguracja kolorów terminala (Dracula)
+- aktualizacja skryptu 008 - dodano meld
+- dodanie pliku z konfiguracją kolorów do `Config-files`
 
 INSTRUKCJA INSTALACJI:
 

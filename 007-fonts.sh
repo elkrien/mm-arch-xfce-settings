@@ -50,6 +50,7 @@ ttf-roboto
 ttf-roboto-mono
 noto-fonts
 ttf-fira-code
+ttf-jetbrains-mono
 )
 
 list_paru=(

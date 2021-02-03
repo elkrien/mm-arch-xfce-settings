@@ -33,3 +33,11 @@ Wersja 1.0.5 - 02/02/2021
 - dodanie pliku z konfiguracją kolorów do Config-files
 - aktualizacja XFCE-wygląd - dodano opis dla Typora oraz Fish
 - stworzenie pliku VERSION i do niego historii zmian
+
+Wersja 1.0.6 - 03/02/2020
+
+- aktualizacja skryptu 007 - dodanie ttf-jetbrains-mono
+- aktualizacja skryptu 008 - dodanie rofi, usunięcie albert
+- dodanie pliku `config.rasi' do `Config-files` - ustawienia tematu Dracula dla rofi
+- aktualizacja XFCE-wygląd - dodano opis dla rofi
+

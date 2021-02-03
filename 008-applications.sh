@@ -55,7 +55,7 @@ tput sgr0
 ### Lista pakietów do zainstalowania
 
 list=(
-albert 			# launcher
+rofi 			# launcher
 engrampa		# manager archiwum
 plank			# dock
 calibre			# manager ebook

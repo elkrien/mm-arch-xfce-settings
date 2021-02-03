@@ -3,7 +3,7 @@
 
 Poniższe motywy i programy zaznaczone jako "zainstalować z AUR" w poniższym poradniku można zainstalować jako całość wpisując w Terminalu poniższe polecenia:
 1. Instalacja pakietów z oficjalnych repozytoriów:
-	sudo pacman -S --needed vala-panel-appmenu-xfce vala-panel-appmenu-common vala-panel-appmenu-registrar albert plank alacritty mugshot ttf-roboto ttf-roboto-mono 					fish ttf-fira-code xclip
+	sudo pacman -S --needed vala-panel-appmenu-xfce vala-panel-appmenu-common vala-panel-appmenu-registrar albert plank alacritty mugshot ttf-roboto ttf-roboto-mono fish ttf-fira-code xclip ttf-jetbrains-mono typora
 2. Instalacja pakietów z AUR:
 	Najpierw instalacja PARU:	
 		sudo pacman -S --needed git base-devel
@@ -196,5 +196,12 @@ Poniższe wszystkie punkty poza ustawieniem skrótu (CRTL+ALT+T) można wykonać
 3. Uruchom typora i w menu Motywy wybierz Dracula
 
 
+##############################      TYPORA      ##############################
+
+1. Zainstaluj rofi z AUR
+2. Zainstaluj czcionkę ttf-jetbrains-mono z AUR 
+3. Ściągnij temat z strony https://draculatheme.com/rofi (bezpośredni link: https://github.com/dracula/rofi/archive/master.zip)
+4. Rozpakuj i wgraj plik 'config.rasi' do ~/.config/rofi (jeśli nie istnieje katalog to go utwórz)
+5. Ustaw skrót klawiszy na CTRL+Spacja i dodaj komendę: rofi -modi drun -icon-theme "kora" -show-icons -lines 5 -show drun
 
 

@@ -67,7 +67,7 @@ qbittorrent		# klient torrent
 pragha			# odtwarzacz muzyki
 parole			# odtwarzanie filmów
 simplescreenrecorder	# do robienia filmów z pulpitu
-alacritty		# terminal
+kitty			# terminal
 htop			# monitor systemu
 neofetch		# informacje o systemie
 gparted			# zarządzanie dyskami

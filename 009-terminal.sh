@@ -59,7 +59,7 @@ tput sgr0
 ### Lista pakietów do zainstalowania
 
 list=(
-alacritty		# terminal
+kitty			# terminal
 fish			# shell
 )
 
@@ -100,10 +100,12 @@ cp -r ./Config-files/config.fish ~/.config/fish/
 mkdir -p ~/.config/fish/conf.d
 cp -r ./Config-files/dracula.fish ~/.config/fish/conf.d/
 
-# kopiowanie ustawień alacritty
+# kopiowanie ustawień kitty
 
-mkdir -p ~/.config/alacritty
-cp -r ./Config-files/alacritty.yml ~/.config/alacritty
+mkdir -p ~/.config/kitty
+cp -r ./Config-files/dracula.conf ~/.config/kitty/
+cp -r ./Config-files/diff.conf ~/.config/kitty/
+cp -r ./Config-files/kitty.conf ~/.config/kitty/
 
 # kopiowanie ustawień starship
 

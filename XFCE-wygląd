@@ -3,7 +3,7 @@
 
 Poniższe motywy i programy zaznaczone jako "zainstalować z AUR" w poniższym poradniku można zainstalować jako całość wpisując w Terminalu poniższe polecenia:
 1. Instalacja pakietów z oficjalnych repozytoriów:
-	sudo pacman -S --needed vala-panel-appmenu-xfce vala-panel-appmenu-common vala-panel-appmenu-registrar albert plank alacritty mugshot ttf-roboto ttf-roboto-mono fish ttf-fira-code xclip ttf-jetbrains-mono typora
+	sudo pacman -S --needed vala-panel-appmenu-xfce vala-panel-appmenu-common vala-panel-appmenu-registrar albert plank kitty mugshot ttf-roboto ttf-roboto-mono fish ttf-fira-code xclip ttf-jetbrains-mono typora
 2. Instalacja pakietów z AUR:
 	Najpierw instalacja PARU:	
 		sudo pacman -S --needed git base-devel
@@ -70,19 +70,6 @@ ttf-roboto-mono - zainstalować z AUR (oficjalne repozytorium)
 4. Zaznaczyć: Użyj tapety użytkownika
 
 
-##############################      ALBERT      ##############################
-
-1. albert - zainstalować z AUR
-2. Włączyć: Clear on hide
-3. Wyłączyć autostart i Show tray icon
-4. W extensions zaznaczyć: Applications i Files
-5. Jako skrót ustawić: LEWY CRTL + SPACJA
-6. Ściągnąć motyw z https://draculatheme.com/albert (bezpośredni link: https://github.com/dracula/albert/archive/master.zip)
-7. Rozpakować skórkę i wgrać plik DraculaPurple.qss do: /usr/share/albert/org.albert.frontend.widgetboxmodel/themes/
-8. Ustawić w Albercie motyw: Dracula Purple (jak nie widać motywu to uruchomić Alberta ponownie)
-6. Dodać Alberta ręcznie do autostartu (Sesja i uruchamianie - w wymaganych polach wszędzie wpisać albert
-
-
 ##############################      PLANK      ##############################
 
 1. plank - zainstalować z AUR
@@ -104,11 +91,11 @@ ttf-roboto-mono - zainstalować z AUR (oficjalne repozytorium)
 
 Poniższe wszystkie punkty poza ustawieniem skrótu (CRTL+ALT+T) można wykonać za pomocą skryptu z 009-terminal.sh z https://github.com/elkrien/arch_settings
 
-1. alacritty - zainstalować z AUR
-2. Ściągnąć motyw z https://draculatheme.com/alacritty (bezpośredni link: https://github.com/dracula/alacritty/archive/master.zip)
-3. Rozpakować i zmienić nazwę pliku dracula.yml na alacritty.yml
-4. Wgrać plik alacritty.yml do ~/.config/alacritty/ (jeżeli nie ma takiego katalogu to go stworzyć)
-5. Ustawić w Preferowane programy alacritty jako terminal
+1. kitty - zainstalować z AUR
+2. Ściągnąć motyw z https://draculatheme.com/kitty (bezpośredni link: https://github.com/dracula/kitty/archive/master.zip)
+3. Rozpakować
+4. Wgrać plik kitty.conf, dracula.conf, diff.conf do katalogu ~/.config/kitty/ (jeżeli nie ma takiego katalogu to go stworzyć)
+5. Ustawić w Preferowane programy kitty jako terminal
 6. Jeśli nie działa skrót to w programie Klawiatura utwórz skrót do uruchamiania jako CTRL+ALT+T - polecenie: exo-open --launch TerminalEmulator
 7. Zainstalować czcionkę ttf-fira-code z AUR
 8. Zainstaluj fish (pacman -S fish)
@@ -196,7 +183,7 @@ Poniższe wszystkie punkty poza ustawieniem skrótu (CRTL+ALT+T) można wykonać
 3. Uruchom typora i w menu Motywy wybierz Dracula
 
 
-##############################      TYPORA      ##############################
+##############################      ROFI      ##############################
 
 1. Zainstaluj rofi z AUR
 2. Zainstaluj czcionkę ttf-jetbrains-mono z AUR 

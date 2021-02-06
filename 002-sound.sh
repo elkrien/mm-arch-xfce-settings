@@ -55,7 +55,6 @@ gst-plugins-bad		# plugin dla gst
 gst-plugins-base	# plugin dla gst
 gst-plugins-ugly	# plugin dla gst
 playerctl		# kontroler media dla spotify, vlc i innych
-volumeicon		# ikona sterowania głośnością 
 )
 
 

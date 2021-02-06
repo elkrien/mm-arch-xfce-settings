@@ -38,6 +38,11 @@ Wersja 1.0.6 - 03/02/2020
 
 - aktualizacja skryptu 007 - dodanie ttf-jetbrains-mono
 - aktualizacja skryptu 008 - dodanie rofi, usunięcie albert
-- dodanie pliku `config.rasi' do `Config-files` - ustawienia tematu Dracula dla rofi
+- dodanie pliku `config.rasi` do `Config-files` - ustawienia tematu Dracula dla rofi
 - aktualizacja XFCE-wygląd - dodano opis dla rofi
 
+Wersja 1.0.7
+- aktualizacja skryptu 008 - usunięcie `alacritty`, dodanie `kitty`
+- aktualizacja skryptu 009 - usunięcie `alacritty` i jego konfiguracji, dodanie `kitty` wraz z konfiguracją
+- dodanie do `Config-files` plików konfiguracyjnych kitty - `diff.conf`,`dracula.conf`,`kitty.conf`
+- aktualizacja pliku XFCE-wygląd - usunięcie alacritty i dodanie kitty wraz z konfiguracją

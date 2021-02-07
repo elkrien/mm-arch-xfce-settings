@@ -64,7 +64,7 @@ fish			# shell
 )
 
 list_paru=(
-starship
+starship-bin
 )
 
 

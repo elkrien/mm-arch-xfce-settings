@@ -41,8 +41,13 @@ Wersja 1.0.6 - 03/02/2020
 - dodanie pliku `config.rasi` do `Config-files` - ustawienia tematu Dracula dla rofi
 - aktualizacja XFCE-wygląd - dodano opis dla rofi
 
-Wersja 1.0.7
+Wersja 1.0.7 - 06/02/2021
 - aktualizacja skryptu 008 - usunięcie `alacritty`, dodanie `kitty`
 - aktualizacja skryptu 009 - usunięcie `alacritty` i jego konfiguracji, dodanie `kitty` wraz z konfiguracją
 - dodanie do `Config-files` plików konfiguracyjnych kitty - `diff.conf`,`dracula.conf`,`kitty.conf`
-- aktualizacja pliku XFCE-wygląd - usunięcie alacritty i dodanie kitty wraz z konfiguracją
+- aktualizacja pliku XFCE-wygląd - usunięcie `alacritty` i dodanie `kitty` wraz z konfiguracją
+
+Wersja 1.0.8 - 07/02/2021
+- aktualizacja skryptu 009 - zmiana `starship` na `starship-bin`
+- aktualizacja pliku README.md
+- aktualizacja pliku z zapisanym ustawieniem panelu - `/Config-files/panel-mm`

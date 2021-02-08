@@ -3,7 +3,7 @@
 #################################################################################
 #										#
 #										#
-# Opis		:	Skrypt do instalacji oficjalnych pakietów		#
+# Opis		:	Skrypt do instalacji tematów Ant Dracula do XFCE	#
 #		:								#
 # Author	:	Maciej Młocek (thx to Eric Dubois from Arcolinux)	#
 #										#
@@ -45,7 +45,7 @@ tput setaf 3
 echo
 echo "###############################################################################"
 echo
-echo " 			INSTALOWANIE APLIKACJI"
+echo " 			INSTALOWANIE APLIKACJI / MOTYWÓW"
 echo 
 echo "###############################################################################"
 echo
@@ -55,49 +55,16 @@ tput sgr0
 ### Lista pakietów do zainstalowania
 
 list=(
-rofi 			# launcher
-engrampa		# manager archiwum
-plank			# dock
-calibre			# manager ebook
-gimp			# edytor grafiki
-viewnior		# przeglądarka zdjęć
-thunderbird		# klient poczty
-firefox			# przeglądarka
-qbittorrent		# klient torrent
-pragha			# odtwarzacz muzyki
-parole			# odtwarzanie filmów
-simplescreenrecorder	# do robienia filmów z pulpitu
-kitty			# terminal
-htop			# monitor systemu
-neofetch		# informacje o systemie
-gparted			# zarządzanie dyskami
-grub-customizer		# customizer grub
-fish			# shell
-libreoffice-fresh	# pakiet office
-libreoffice-fresh-pl	# Polski język do Libreoffice
-gufw			# konfiguracja firewall
-discord			# discord
-intel-ucode		# Microcode update dla procesorów Intel
-xclip			# schowek w edytorze micro
-meld			# porównywarka plików
-unzip			# rozpakowywanie archiwów
+
 )
 
 list_paru=(
-bitwarden-bin			# password manager
-teams				# Microsoft Teams
-zoom				# Zoom
-skypeforlinux-stable-bin	# Skype
-mugshot				# aktualizowanie profilu
-google-chrome			# przeglądarka www
-timeshift-bin			# timeshift
-etcher-bin			# flashowanie iso
-pamac-aur			# instalator pakietów
-nvm				# Node Version Manager
-micro-bin			# edytor w terminalu
-spotify				# serwis spotify
-xfce4-panel-profiles		# backup i zmienianie profili panelu
-typora				# edytor plików MD
+ant-dracula-gtk-theme			# motyw Ant Dracula do XFCE
+kora-icon-theme				# ikony kora dla XFCE
+bibata-cursor-theme			# kursory myszy
+vala-panel-appmenu-xfce-git		# panel vala
+vala-panel-appmenu-common-git		# panel vala
+vala-panel-appmenu-registrar-git	# panel vala
 )
 
 
@@ -119,13 +86,34 @@ for name in "${list_paru[@]}" ; do
 	echo
 done
 
+
+# temat dla plank
+
+mkdir -p ~/Pobrane
+wget -P ~/Pobrane/ https://github.com/dracula/plank/archive/master.zip
+unzip ~/Pobrane/master.zip -d ~/Pobrane
+rm ~/Pobrane/master.zip 
+sudo cp -r ~/Pobrane/plank-master/Dracula/ /usr/share/plank/themes/
+
+# temat dla MousePad
+
+cd ~/GitHub/
+git clone https://github.com/dracula/mousepad.git && cd mousepad
+mkdir -p "$HOME/.local/share/gtksourceview-3.0/styles"
+mv dracula.xml $HOME/.local/share/gtksourceview-3.0/styles
+cd ~/arch_settings/
+
+# temat dla micro
+
+
+
 ### Powiadomienie o zakończeniu
 
 tput setaf 11;
 echo
 echo "###############################################################################"
 echo
-echo "			APLIKACJE ZOSTAŁY ZAINSTALOWANE"
+echo "			MOTYWY ZOSTAŁY ZOSTAŁY ZAINSTALOWANE"
 echo
 echo "###############################################################################"
 echo;tput sgr0

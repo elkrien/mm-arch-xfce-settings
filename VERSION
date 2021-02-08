@@ -51,3 +51,7 @@ Wersja 1.0.8 - 07/02/2021
 - aktualizacja skryptu 009 - zmiana `starship` na `starship-bin`
 - aktualizacja pliku README.md
 - aktualizacja pliku z zapisanym ustawieniem panelu - `/Config-files/panel-mm`
+
+Wersja 1.0.9 - 09/02/2021
+- stworzenie skryptu 010 - instalacja tematów i motywów
+

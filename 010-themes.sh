@@ -55,7 +55,6 @@ tput sgr0
 ### Lista pakietów do zainstalowania
 
 list=(
-
 )
 
 list_paru=(
@@ -100,7 +99,7 @@ cd ~/GitHub/
 git clone https://github.com/dracula/mousepad.git && cd mousepad
 mkdir -p "$HOME/.local/share/gtksourceview-3.0/styles"
 mv dracula.xml $HOME/.local/share/gtksourceview-3.0/styles
-cd ~/arch_settings/
+cd ~/GitHub/arch_settings/
 
 # temat dla micro
 
@@ -112,6 +111,17 @@ cp -r ./Config-files/dracula.micro ~/.config/micro/colorschemes
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true  
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 
+# temat dla rofi
+
+mkdir -p ~/.config/rofi
+cp -r ./Config-files/config.rasi ~/.config/rofi 
+
+# temat dla typora
+
+mkdir -p ~/.config/Typora/themes/
+cp -R ./Config-files/dracula ~/.config/Typora/themes/
+cp -R ./Config-files/dracula.css ~/.config/Typora/themes/
+
 ### Powiadomienie o zakończeniu
 
 tput setaf 11;
@@ -119,6 +129,7 @@ echo
 echo "###############################################################################"
 echo
 echo "			MOTYWY ZOSTAŁY ZOSTAŁY ZAINSTALOWANE"
+echo "		     POSTĘPUJ ZGODNIE Z KOLEJNYMI INSTRUKCJAMI"
 echo
 echo "###############################################################################"
 echo;tput sgr0

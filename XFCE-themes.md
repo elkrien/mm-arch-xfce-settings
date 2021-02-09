@@ -68,32 +68,37 @@ A następnie dla poszczególnych aplikacji wykonaj poniższe działania.
 1. W Terminalu uruchom `micro` 
 2. Jeśli wygląd się nie zmienił na kolory *Dracula* to wciśnij `CTRL+e` i wpisz polecenie `set colorscheme dracula` i uruchom *Micro* ponownie
 
-4. 
+##### ROFI
 
-##############################      EDYCJA UŻYTKOWNIKA      ##############################
+1. Uruchom *Klawiatura*
+2. W zakładce *Skróty klawiszowe* kliknik *+ Add*
+3. Wpisz polecenie `rofi -modi drun -icon-theme "kora" -show-icons -lines 5 -show drun`
+4. Ustaw skrót klawiszy na `CTRL+Spacja`
 
-1. Mugshot - zainstalować z AUR
-2. Ustawić zdjęcia użytkownika
+##### EDYCJA UŻYTKOWNIKA
 
+1. Rozwiń *Whisker Menu* (ikonka po lewej stronie panelu)
+2. Kliknij na Avater przy nazwie użytkownika
+3. Kliknij na zdjęcie i wybierz gif z katalogu `~Github/arch_settings/Config-files`
 
-##############################      GOOGLE CHROME      ##############################
+#####  GOOGLE CHROME
 
-1. W ustawieniach motywu wybierz GTK+
+1. W ustawieniach motywu upewnij się, że jest wybrany GTK+
 
+##### TYPORA
 
-##############################      TYPORA      ##############################
+1. Uruchom *typora* 
+2. W menu *Motywy* wybierz *Dracula*
 
-1. Ściągnij temat z https://draculatheme.com/typora (bezpośredni link: https://github.com/dracula/typora/archive/master.zip)
-2. Rozpakuj i skopiuj katalog dracula i plik dracula.css do ~/.config/Typora/themes/
-3. Uruchom typora i w menu Motywy wybierz Dracula
+##### TAPETY
 
+1. Uruchom *Menedżer plików Thunar*
+2. Wybierz *Przeglądanie sieci*
+3. W adresie wpisz fttp://192.168.188.1 i zaloguj się
+4. Skopiuj zawartość katalogu `Backup/Linux/Obrazy` do katalogu `~/Obrazy`
+5. Kliknij prawym przyciskiem na pulpicie i wybierz *Ustawienia pulpitu...*
+6. Na dole wybierz *Katalog* i zmień na `~/Obrazy`
+7. Ustaw swoją wybraną tapetę
 
-##############################      ROFI      ##############################
-
-1. Zainstaluj rofi z AUR
-2. Zainstaluj czcionkę ttf-jetbrains-mono z AUR 
-3. Ściągnij temat z strony https://draculatheme.com/rofi (bezpośredni link: https://github.com/dracula/rofi/archive/master.zip)
-4. Rozpakuj i wgraj plik 'config.rasi' do ~/.config/rofi (jeśli nie istnieje katalog to go utwórz)
-5. Ustaw skrót klawiszy na CTRL+Spacja i dodaj komendę: rofi -modi drun -icon-theme "kora" -show-icons -lines 5 -show drun
 
 

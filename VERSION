@@ -55,3 +55,7 @@ Wersja 1.0.8 - 07/02/2021
 Wersja 1.0.9 - 09/02/2021
 - stworzenie skryptu 010 - instalacja tematów i motywów
 - aktualizacja skryptu 008 - dodanie unzip
+- stworzenie pliku XFCE-themes.md - instrukcja ustawiania wyglądu systemu przy pomocy skryptu
+- dodanie pliki dracula.micro do `Config-files`
+- dodanie gif'a z avatarem do `Config-files`
+

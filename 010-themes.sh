@@ -86,7 +86,6 @@ for name in "${list_paru[@]}" ; do
 	echo
 done
 
-
 # temat dla plank
 
 mkdir -p ~/Pobrane
@@ -105,7 +104,13 @@ cd ~/arch_settings/
 
 # temat dla micro
 
+mkdir -p ~/.config/micro/colorschemes
+cp -r ./Config-files/dracula.micro ~/.config/micro/colorschemes
 
+# polecenia dla pluginu vala
+
+xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true  
+xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 
 ### Powiadomienie o zakończeniu
 

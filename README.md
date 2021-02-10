@@ -2,7 +2,7 @@
 
 Repozytorium zawiera skrypty oraz ustawienia Linux Arch w moim własnym wydaniu :)
 
-INSTRUKCJA INSTALACJI:
+INSTRUKCJA INSTALACJI (nowo zainstalowany system):
 
 1. Zaktualizuj system:
    
@@ -79,7 +79,7 @@ INSTRUKCJA INSTALACJI:
    sudo pacman -Sc
    ```
 
-5. Przejdź do zabawy z dostosowaniem wyglądu XFCE wg pliku XFCE-wygląd
+5. Przejdź do zabawy z dostosowaniem wyglądu XFCE wg pliku XFCE-themes.md
 
 
 

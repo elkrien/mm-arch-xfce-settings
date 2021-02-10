@@ -1,20 +1,48 @@
 # LINUX ARCH XFCE na IDEAPAD 100S-14IBR
 
-Repozytorium zawiera skrypty oraz ustawienia Linux Arch w moim własnym wydaniu :)
+Repozytorium zawiera skrypty oraz ustawienia Linux Arch w moim własnym wydaniu. System i jego wygląd oczywiscie jest dostosowany do moich osobistych preferencji na moim komputerze ale spokojnie powinien działać na każdym innym - nie powinno wymagać to wielu poprawek (obstawiam, że wszystko powinno działać "out of the box" - ewentualnie można dodatkowo doinstalować sterowniki graficzne - ja używam na tym komputerze standardowych)
 
 ![](https://github.com/elkrien/mm-arch-xfce-settings/blob/main/Config-files/mm-arch-xfce-settings.png?raw=true)
 
 INSTRUKCJA INSTALACJI (nowo zainstalowany system - Vanilla Arch Linux):
 
-1. Zaktualizuj system:
-   
+1. Zainstaluj Arch Linux:
+
+   - Ręcznie używając ISO z [https://archlinux.org/](https://archlinux.org/download/)
+   - Używając Arch Linux Calamares Installer - używając ALCI ISO PURE - [https://alci.online/](https://alci.online/downloads/)
+
+2. Po uruchomieniu nowego systemu zaloguj się jako stworzony podczas instalacji użytkownik
+
+3. Jeżeli podczas instalacji nie zainstalowałeś i nie uruchomiłeś internetu to wykonaj następujące kroki i podłącz się do sieci WiFi (zastępując w poniższym kodzie słowo *haslodowifi* prawdziwym hasłem oraz pamiętając, że MM5 to konkretna nazwa mojej sieci domowej - użyj swojej):
+
+   ```sh
+   iwctl station wlan0 scan
+   iwctl --passphrase haslodowifi station wlan0 connect MM5
+   sudo pacman -S networkmanager
+   sudo systemctl enable --now NetworkManager
+   nmtui
+   ```
+
+4. Zaktualizuj system:
+
    ```sh
    sudo update -Syu
    ```
-   
-2. Uruchom następujące skrypty:
 
-   Instalacja środowiska graficznego XFCE:
+5. Sklonuj i skonfiguruj repozytorium z skryptami konfiguracyjnymi za pomocą poleceń:
+
+   ```sh
+   sudo pacman -S --needed git
+   mkdir ~/GitHub
+   cd ~/GitHub/
+   git clone https://github.com/elkrien/mm-arch-xfce-settings.git
+   cd mm-arch-xfce-settings/
+   ./git-setup.sh
+   ```
+
+6. Uruchom następujące skrypty:
+
+   Instalacja środowiska graficznego XFCE (możesz ale nie musisz restartować komputera):
 
    ```sh
     ./001-xfce-environment.sh
@@ -69,19 +97,19 @@ INSTRUKCJA INSTALACJI (nowo zainstalowany system - Vanilla Arch Linux):
     ./009-terminal.sh
    ```
 
-3. Uruchom ponownie komputer
+7. Uruchom ponownie komputer
 
    ```sh
    sudo reboot
    ```
 
-4. Wyczyść cache po wszyskich instalacjach:
+8. Wyczyść cache po wszyskich instalacjach:
 
    ```sh
    sudo pacman -Sc
    ```
 
-5. Przejdź do zabawy z dostosowaniem wyglądu XFCE wg pliku XFCE-themes.md
+9. Przejdź do zabawy z dostosowaniem wyglądu systemu i aplikacji wg pliku XFCE-themes.md
 
 
 

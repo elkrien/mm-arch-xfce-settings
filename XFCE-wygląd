@@ -1,9 +1,17 @@
+##############################      OPIS      ##############################
+
+Plik zawiera opis wszystkich opcji dostosowania wyglądu środowiska XFCE oparty na motywie Ant Dracula
+Poniższy opis jest szczegółowy, zautomatyzowana wersja oparta na skrypcie, gdzie większość poniższych czynności
+jest wywołana za pomocą skryptów znajduje się w repozytorium:
+
+https://github.com/elkrien/mm-arch-xfce-settings.git
+
 
 ##############################      UWAGA      ##############################
 
 Poniższe motywy i programy zaznaczone jako "zainstalować z AUR" w poniższym poradniku można zainstalować jako całość wpisując w Terminalu poniższe polecenia:
 1. Instalacja pakietów z oficjalnych repozytoriów:
-	sudo pacman -S --needed vala-panel-appmenu-xfce vala-panel-appmenu-common vala-panel-appmenu-registrar albert plank kitty mugshot ttf-roboto ttf-roboto-mono fish ttf-fira-code xclip ttf-jetbrains-mono typora
+	sudo pacman -S --needed vala-panel-appmenu-xfce vala-panel-appmenu-common vala-panel-appmenu-registrar albert plank kitty mugshot ttf-roboto ttf-roboto-mono 		fish ttf-fira-code xclip ttf-jetbrains-mono typora
 2. Instalacja pakietów z AUR:
 	Najpierw instalacja PARU:	
 		sudo pacman -S --needed git base-devel

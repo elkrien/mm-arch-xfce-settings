@@ -2,7 +2,7 @@
 
 Repozytorium zawiera skrypty oraz ustawienia Linux Arch w moim własnym wydaniu. 
 
-System i jego wygląd oczywiście jest dostosowany do moich osobistych preferencji na moim komputerze ale spokojnie powinien działać na każdym innym - nie powinno wymagać to wielu poprawek (obstawiam, że wszystko będzie działać "out of the box", ewentualnie można dodatkowo doinstalować sterowniki graficzne, ja używam standardowych)
+System i jego wygląd oczywiście jest dostosowany do moich osobistych preferencji na moim komputerze ale spokojnie powinien działać na każdym innym - nie powinno wymagać to wielu poprawek (obstawiam, że wszystko będzie działać "out of the box", ewentualnie można dodatkowo doinstalować odpowiednie sterowniki karty graficznej)
 
 ![](https://github.com/elkrien/mm-arch-xfce-settings/blob/main/Config-files/mm-arch-xfce-settings.png?raw=true)
 

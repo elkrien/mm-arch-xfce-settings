@@ -10,8 +10,8 @@ INSTRUKCJA INSTALACJI (nowo zainstalowany system - Vanilla Arch Linux):
 
 1. Zainstaluj Arch Linux:
 
-   - Ręcznie używając ISO z [https://archlinux.org/](https://archlinux.org/download/)
-   - Używając Arch Linux Calamares Installer - używając ALCI ISO PURE - [https://alci.online/](https://alci.online/downloads/)
+   - Ręcznie - używając ISO z [https://archlinux.org/](https://archlinux.org/download/)
+   - Graficznie - za pomocą Arch Linux Calamares Installer (ALCI ISO PURE) z [https://alci.online/](https://alci.online/downloads/)
 
 2. Po uruchomieniu nowego systemu zaloguj się jako stworzony podczas instalacji użytkownik
 

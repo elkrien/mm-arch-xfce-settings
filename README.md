@@ -4,7 +4,7 @@ Repozytorium zawiera skrypty oraz ustawienia Linux Arch w moim własnym wydaniu 
 
 ![](https://github.com/elkrien/mm-arch-xfce-settings/blob/main/Config-files/mm-arch-xfce-settings.png?raw=true)
 
-INSTRUKCJA INSTALACJI (nowo zainstalowany system):
+INSTRUKCJA INSTALACJI (nowo zainstalowany system - Vanilla Arch Linux):
 
 1. Zaktualizuj system:
    

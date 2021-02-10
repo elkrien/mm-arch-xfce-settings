@@ -28,13 +28,21 @@ A następnie dla poszczególnych aplikacji wykonaj poniższe działania.
    - *Przezroczystość nieaktywnych okien*
    - *Przezroczystość okien podczas przemieszczania*
    - *Przezroczystość okien podczas zmieniania rozmiaru*
+9. Otwórz *Edytor ustawień* i w kategorii *xfce4-session* upewnij się, że wyłączone jest *SaveOnExit*
 
 ##### PANEL
 
 1. Uruchom *Profile paneli*
 2. Wciśnij przycisk *Importuje konfiguracje*
 3. Wybierz plik *panel-mm.tar.bz2* znajdujący się w `~/GitHub/arch_settings/Config-files`
-4. Wybierz na liście *Panel MM* i wciśnij *Wprowadza konfigurację*
+4. Nadaj nazwę *Panel MM*
+5. Wybierz na liście *Panel MM* i wciśnij *Wprowadza konfigurację*
+6. Kliknij prawym przyciskiem myszy w dowolnym pustym miejscu na panelu i wybierz *Panel / Ustawienia*
+7. Przejdź do *Aplety*
+8. Wybierz *Menu Whisker* i przejdź do ustawień (kreseczki na dole)
+9. W zakładce *Przycisk panelu* kliknij na ikonę, w *Zestaw* wybierz *Wszystkie*, w wyszukiwanie wpisz *arc* i wybierz nową ikonkę
+10. Zamknij ustawienia *Menu Whisker* i otwórz ustawienia apletu *Komunikat pogodowy*
+11. W zakładce *Etykiety* w kwadracie *Wyświetlane etykiety* usuń wszystko oprócz *Temperatura*
 
 ##### OKNO LOGOWANIA
 
@@ -42,6 +50,14 @@ A następnie dla poszczególnych aplikacji wykonaj poniższe działania.
 2. Ustaw motyw na *Ant-Dracula*
 3. Ustaw ikony na *Kora*
 4. Zaznacz opcję *Użyj tapety użytkownika*
+
+##### THUNAR
+
+1. W menu *Edycja* wybierz *Czynności*
+2. Dodaj nowe czynności:
+   - Otwórz w terminalu - polecenie `exo-open --working-directory %f --launch TerminalEmulator` (ikonka aplikacji *kitty*)
+   - Otwórz folder jako administrator - polecenie `pkexec thunar %f` (ikona czerwonego folderu)
+   - Porównaj - polecenie `meld %F` (ikona aplikacji *Meld*)
 
 ##### PLANK
 
@@ -99,6 +115,8 @@ A następnie dla poszczególnych aplikacji wykonaj poniższe działania.
 5. Kliknij prawym przyciskiem na pulpicie i wybierz *Ustawienia pulpitu...*
 6. Na dole wybierz *Katalog* i zmień na `~/Obrazy`
 7. Ustaw swoją wybraną tapetę
+
+
 
 
 

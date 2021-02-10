@@ -42,20 +42,29 @@ Wersja 1.0.6 - 03/02/2020
 - aktualizacja XFCE-wygląd - dodano opis dla rofi
 
 Wersja 1.0.7 - 06/02/2021
+
 - aktualizacja skryptu 008 - usunięcie `alacritty`, dodanie `kitty`
 - aktualizacja skryptu 009 - usunięcie `alacritty` i jego konfiguracji, dodanie `kitty` wraz z konfiguracją
 - dodanie do `Config-files` plików konfiguracyjnych kitty - `diff.conf`,`dracula.conf`,`kitty.conf`
 - aktualizacja pliku XFCE-wygląd - usunięcie `alacritty` i dodanie `kitty` wraz z konfiguracją
 
 Wersja 1.0.8 - 07/02/2021
+
 - aktualizacja skryptu 009 - zmiana `starship` na `starship-bin`
 - aktualizacja pliku README.md
 - aktualizacja pliku z zapisanym ustawieniem panelu - `/Config-files/panel-mm`
 
 Wersja 1.0.9 - 09/02/2021
+
 - stworzenie skryptu 010 - instalacja tematów i motywów
 - aktualizacja skryptu 008 - dodanie unzip
 - stworzenie pliku XFCE-themes.md - instrukcja ustawiania wyglądu systemu przy pomocy skryptu
 - dodanie pliki dracula.micro do `Config-files`
 - dodanie gif'a z avatarem do `Config-files`
+
+Wersja 1.0.10 - 10/02/2021
+
+- aktualizacja skryptu 003 - dodanie aktualizacji repozytoriów po zainstalowaniu paru
+- aktualizacja skryptu 010 - poprawki błędów
+- aktualizacja XFCE-themes.md - poprawki błędów
 

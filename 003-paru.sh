@@ -32,6 +32,10 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
+# aktualizacja repozytoriów
+
+paru -Sy
+
 ### Powiadomienie o zakończeniu
 
 tput setaf 11;

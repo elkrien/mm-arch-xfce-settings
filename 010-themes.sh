@@ -55,12 +55,13 @@ tput sgr0
 ### Lista pakietów do zainstalowania
 
 list=(
+gobject-instrospection			# potrzebne do zainstalowania panelu vala
 )
 
 list_paru=(
 ant-dracula-gtk-theme			# motyw Ant Dracula do XFCE
 kora-icon-theme				# ikony kora dla XFCE
-bibata-cursor-theme			# kursory myszy
+bibata-cursor-theme-bin			# kursory myszy
 vala-panel-appmenu-xfce-git		# panel vala
 vala-panel-appmenu-common-git		# panel vala
 vala-panel-appmenu-registrar-git	# panel vala
@@ -68,6 +69,8 @@ vala-panel-appmenu-registrar-git	# panel vala
 
 
 ### Wywołanie skryptu
+
+paru -Sy
 
 count=0
 
@@ -99,7 +102,7 @@ cd ~/GitHub/
 git clone https://github.com/dracula/mousepad.git && cd mousepad
 mkdir -p "$HOME/.local/share/gtksourceview-3.0/styles"
 mv dracula.xml $HOME/.local/share/gtksourceview-3.0/styles
-cd ~/GitHub/arch_settings/
+cd ~/GitHub/arch-xfce-settings/
 
 # temat dla micro
 

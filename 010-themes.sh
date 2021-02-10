@@ -102,7 +102,7 @@ cd ~/GitHub/
 git clone https://github.com/dracula/mousepad.git && cd mousepad
 mkdir -p "$HOME/.local/share/gtksourceview-3.0/styles"
 mv dracula.xml $HOME/.local/share/gtksourceview-3.0/styles
-cd ~/GitHub/arch-xfce-settings/
+cd ~/GitHub/mm-arch-xfce-settings/
 
 # temat dla micro
 

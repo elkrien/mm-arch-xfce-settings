@@ -41,8 +41,9 @@ A następnie dla poszczególnych aplikacji wykonaj poniższe działania.
 7. Przejdź do *Aplety*
 8. Wybierz *Menu Whisker* i przejdź do ustawień (kreseczki na dole)
 9. W zakładce *Przycisk panelu* kliknij na ikonę, w *Zestaw* wybierz *Wszystkie*, w wyszukiwanie wpisz *arc* i wybierz nową ikonkę
-10. Zamknij ustawienia *Menu Whisker* i otwórz ustawienia apletu *Komunikat pogodowy*
-11. W zakładce *Etykiety* w kwadracie *Wyświetlane etykiety* usuń wszystko oprócz *Temperatura*
+10. W zakładce *Zachowanie* zaznacz opcję *Przełączanie kategorii poprzez wskazanie ich kursorem myszy*
+11. Zamknij ustawienia *Menu Whisker* i otwórz ustawienia apletu *Komunikat pogodowy*
+12. W zakładce *Etykiety* w kwadracie *Wyświetlane etykiety* usuń wszystko oprócz *Temperatura*
 
 ##### OKNO LOGOWANIA
 

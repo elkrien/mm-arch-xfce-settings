@@ -5,7 +5,7 @@
 W terminalu uruchom skrypt:
 
 ```sh
-./010-themes.sh
+./011-themes.sh
 ```
 
 A następnie dla poszczególnych aplikacji wykonaj poniższe działania.

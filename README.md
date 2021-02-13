@@ -99,6 +99,12 @@ INSTRUKCJA INSTALACJI (nowo zainstalowany system - Vanilla Arch Linux):
     ./009-terminal.sh
    ```
 
+   Instalacja bluetooth (opcjonalnie):
+
+   ```sh
+   ./010-bluetooth.sh
+   ```
+
 7. Uruchom ponownie komputer
 
    ```sh

@@ -6,32 +6,17 @@ System i jego wygląd oczywiście jest dostosowany do moich osobistych preferenc
 
 ![](https://github.com/elkrien/mm-arch-xfce-settings/blob/main/Config-files/mm-arch-xfce-settings.png?raw=true)
 
-INSTRUKCJA INSTALACJI (nowo zainstalowany system - Vanilla Arch Linux):
+INSTRUKCJA INSTALACJI:
 
-1. Zainstaluj Arch Linux:
+1. Zainstaluj Arch Linux wg instrukcji zawartej w pliku *arch-install-step-by-step.md*
 
-   - Ręcznie - używając ISO z [https://archlinux.org/](https://archlinux.org/download/)
-   - Graficznie - za pomocą Arch Linux Calamares Installer (ALCI ISO PURE) z [https://alci.online/](https://alci.online/downloads/)
-
-2. Po uruchomieniu nowego systemu zaloguj się jako stworzony podczas instalacji użytkownik
-
-3. Jeżeli podczas instalacji nie zainstalowałeś i nie uruchomiłeś internetu to wykonaj następujące kroki i podłącz się do sieci WiFi (zastępując w poniższym kodzie słowo *haslodowifi* prawdziwym hasłem oraz pamiętając, że MM5 to konkretna nazwa mojej sieci domowej - użyj swojej):
-
-   ```sh
-   iwctl station wlan0 scan
-   iwctl --passphrase haslodowifi station wlan0 connect MM5
-   sudo pacman -S networkmanager
-   sudo systemctl enable --now NetworkManager
-   nmtui
-   ```
-
-4. Zaktualizuj system:
+2. Zaktualizuj system:
 
    ```sh
    sudo update -Syu
    ```
 
-5. Sklonuj i skonfiguruj repozytorium z skryptami konfiguracyjnymi za pomocą poleceń:
+3. Sklonuj i skonfiguruj repozytorium z skryptami konfiguracyjnymi za pomocą poleceń:
 
    ```sh
    sudo pacman -S --needed git
@@ -42,7 +27,7 @@ INSTRUKCJA INSTALACJI (nowo zainstalowany system - Vanilla Arch Linux):
    ./git-setup.sh
    ```
 
-6. Uruchom następujące skrypty:
+4. Uruchom następujące skrypty:
 
    Instalacja środowiska graficznego XFCE (możesz ale nie musisz restartować komputera):
 
@@ -105,19 +90,19 @@ INSTRUKCJA INSTALACJI (nowo zainstalowany system - Vanilla Arch Linux):
    ./010-bluetooth.sh
    ```
 
-7. Uruchom ponownie komputer
+5. Uruchom ponownie komputer
 
    ```sh
    sudo reboot
    ```
 
-8. Wyczyść cache po wszyskich instalacjach:
+6. Wyczyść cache po wszyskich instalacjach:
 
    ```sh
    sudo pacman -Sc
    ```
 
-9. Przejdź do zabawy z dostosowaniem wyglądu systemu i aplikacji wg pliku XFCE-themes.md
+7. Przejdź do zabawy z dostosowaniem wyglądu systemu i aplikacji wg pliku XFCE-themes.md
 
 
 

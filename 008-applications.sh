@@ -82,6 +82,8 @@ xclip			# schowek w edytorze micro
 meld			# porównywarka plików
 unzip			# rozpakowywanie archiwów
 wget			# download from www in terminal
+exa				# ls replacement
+bat				# cat replacement
 )
 
 list_paru=(

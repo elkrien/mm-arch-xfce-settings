@@ -7,6 +7,10 @@ end
 
 export MICRO_TRUECOLOR=1
 
+### ZOXIDE
+
+zoxide init fish | source
+
 
 #### "BAT" AS A MANPAGER
 

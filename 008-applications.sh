@@ -101,6 +101,7 @@ nvm				# Node Version Manager
 spotify				# serwis spotify
 xfce4-panel-profiles		# backup i zmienianie profili panelu
 typora				# edytor plików MD
+zoxide-bin			# cd replacement
 )
 
 

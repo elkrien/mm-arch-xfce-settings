@@ -82,8 +82,9 @@ xclip			# schowek w edytorze micro
 meld			# porównywarka plików
 unzip			# rozpakowywanie archiwów
 wget			# download from www in terminal
-exa				# ls replacement
-bat				# cat replacement
+exa			# ls replacement
+bat			# cat replacement
+micro			# edytor w terminalu
 )
 
 list_paru=(
@@ -97,7 +98,6 @@ timeshift-bin			# timeshift
 etcher-bin			# flashowanie iso
 pamac-aur			# instalator pakietów
 nvm				# Node Version Manager
-micro-bin			# edytor w terminalu
 spotify				# serwis spotify
 xfce4-panel-profiles		# backup i zmienianie profili panelu
 typora				# edytor plików MD

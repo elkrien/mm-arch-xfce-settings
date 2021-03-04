@@ -55,7 +55,7 @@ tput sgr0
 ### Lista pakietów do zainstalowania
 
 list=(
-gobject-instrospection			# potrzebne do zainstalowania panelu vala
+gobject-introspection			# potrzebne do zainstalowania panelu vala
 )
 
 list_paru=(

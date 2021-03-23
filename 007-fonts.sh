@@ -51,6 +51,7 @@ ttf-roboto-mono
 noto-fonts
 ttf-fira-code
 ttf-jetbrains-mono
+awesome-terminal-fonts
 )
 
 list_paru=(

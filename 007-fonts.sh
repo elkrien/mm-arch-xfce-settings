@@ -51,7 +51,9 @@ ttf-roboto-mono
 noto-fonts
 ttf-fira-code
 ttf-jetbrains-mono
+ttf-ubuntu-font-family
 awesome-terminal-fonts
+ttf-nerd-fonts-symbols
 )
 
 list_paru=(
